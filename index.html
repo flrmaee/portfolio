@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Florie Mae Magsalay · BSCS Student &amp; Web Developer</title>
+  <meta name="description" content="Portfolio of Florie Mae Magsalay, a third-year BSCS student at Tangub City Global College building clean front-end projects.">
+  <meta name="theme-color" content="#fff7f9">
+
+  <link rel="icon" href="images/assets/logo_circle.jpg">
+
+  <!-- Fonts: Fraunces (headings) + Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ Navigation ============ -->
+  <header class="site-header" id="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Florie Mae Magsalay, back to top">
+        <img src="images/assets/logo_circle.jpg" alt="" width="36" height="36">
+        <span>Florie Mae</span>
+      </a>
+
+      <ul class="nav-list">
+        <li><a class="nav-link" href="#about" data-section="about">About</a></li>
+
+        <!-- Skills dropdown -->
+        <li class="has-dropdown">
+          <button class="nav-link dropdown-toggle" type="button"
+                  aria-expanded="false" aria-haspopup="true" aria-controls="menu-skills"
+                  data-section="skills">
+            Skills <span class="arrow" aria-hidden="true">▼</span>
+          </button>
+          <ul class="dropdown-menu" id="menu-skills">
+            <li><a href="#skills">All skills</a></li>
+            <li><a href="#skills-languages">Languages</a></li>
+            <li><a href="#skills-tools">Tools</a></li>
+            <li><a href="#skills-learning">Currently learning</a></li>
+          </ul>
+        </li>
+
+        <!-- Projects dropdown -->
+        <li class="has-dropdown">
+          <button class="nav-link dropdown-toggle" type="button"
+                  aria-expanded="false" aria-haspopup="true" aria-controls="menu-projects"
+                  data-section="projects">
+            Projects <span class="arrow" aria-hidden="true">▼</span>
+          </button>
+          <ul class="dropdown-menu" id="menu-projects">
+            <li><a href="#projects">All projects</a></li>
+            <li><a href="#project-brewtopia">BrewTopia</a></li>
+            <li><a href="https://github.com/flrmaee?tab=repositories" target="_blank" rel="noopener noreferrer">More on GitHub</a></li>
+          </ul>
+        </li>
+
+        <li><a class="nav-link" href="#contact" data-section="contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ Hero ============ -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-photo">
+          <img src="images/assets/profile.jpg"
+               alt="Portrait of Florie Mae Magsalay"
+               width="320" height="320">
+        </div>
+
+        <div class="hero-text">
+          <p class="hero-role">BSCS Student · Web Developer</p>
+          <h1 id="hero-title">Florie Mae Magsalay</h1>
+          <p class="hero-desc">
+            I build things for the web and I'm still learning how to build them better.
+            Right now that means clean front-end code, small side projects, and shipping
+            each one all the way to a live site.
+          </p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-ghost" href="https://github.com/flrmaee" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ About ============ -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container narrow">
+        <h2 id="about-title">About</h2>
+        <p>
+          I'm a third-year BSCS student at Tangub City Global College (TCGC). I'm most
+          interested in web development and software development, and I enjoy the
+          problem-solving that sits behind both of them: breaking a big idea into small
+          steps and figuring out what works.
+        </p>
+        <p>
+          I'm continuously improving my programming skills by building side projects,
+          reading other people's code, and learning new tools along the way. My goal is
+          to write code that is clean, readable, and useful to the people who use it.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ Skills ============ -->
+    <section class="section section-tint" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 id="skills-title">Skills</h2>
+
+        <div class="skill-grid">
+          <article class="skill-card" id="skills-languages">
+            <h3>Languages</h3>
+            <ul class="tags">
+              <li>JavaScript</li>
+              <li>Java</li>
+              <li>HTML/CSS</li>
+              <li>Dart</li>
+            </ul>
+          </article>
+
+          <article class="skill-card" id="skills-tools">
+            <h3>Tools</h3>
+            <ul class="tags">
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>VS Code</li>
+              <li>Figma</li>
+              <li>Firebase</li>
+            </ul>
+          </article>
+
+          <article class="skill-card" id="skills-learning">
+            <h3>Currently Learning</h3>
+            <ul class="tags tags-soft">
+              <li>Python</li>
+              <li>Node.js</li>
+              <li>Databases</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Projects ============ -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 id="projects-title">Projects</h2>
+
+        <div class="project-grid">
+
+          <!-- ---- Project card: BrewTopia ---- -->
+          <article class="project-card" id="project-brewtopia">
+            <h3>BrewTopia</h3>
+            <p>
+              A coffee shop app concept built to bring people together over handcrafted
+              drinks and a cozy space to relax. It's a mobile app for browsing the menu
+              and ordering, with a warm, welcoming feel throughout.
+            </p>
+            <ul class="tags tags-small" aria-label="Technologies used">
+              <li>Flutter</li>
+              <li>Dart</li>
+              <li>Firebase</li>
+            </ul>
+            <a class="card-link" href="https://github.com/flrmaee/BrewTopia" target="_blank" rel="noopener noreferrer">
+              View on GitHub <span class="sr-only">(opens in a new tab)</span>
+            </a>
+          </article>
+
+          <!--
+            ADD A NEW PROJECT: copy the whole <article> block below, remove the
+            comment markers, and edit the id, title, text, tags, and link.
+
+          <article class="project-card" id="project-your-project">
+            <h3>Project Name</h3>
+            <p>Short description of what it does and why you built it.</p>
+            <ul class="tags tags-small" aria-label="Technologies used">
+              <li>Technology</li>
+              <li>Technology</li>
+            </ul>
+            <a class="card-link" href="https://github.com/flrmaee/REPO-NAME" target="_blank" rel="noopener noreferrer">
+              View on GitHub <span class="sr-only">(opens in a new tab)</span>
+            </a>
+          </article>
+          -->
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Contact ============ -->
+    <section class="section section-tint contact" id="contact" aria-labelledby="contact-title">
+      <div class="container narrow center">
+        <h2 id="contact-title">Let's build something.</h2>
+        <p>Have an idea, a question, or an opportunity? I'd love to hear from you.</p>
+        <div class="btn-row btn-row-center">
+          <a class="btn btn-primary" href="mailto:floriemaemagsalay92@gmail.com">Email me</a>
+          <a class="btn btn-ghost" href="https://github.com/flrmaee" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year">2026</span> Florie Mae Magsalay · Tangub City Global College</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
